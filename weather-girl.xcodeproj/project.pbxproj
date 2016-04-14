@@ -15,6 +15,7 @@
 		5819B9341CBB6DC3004EE8A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5819B9321CBB6DC3004EE8A8 /* LaunchScreen.storyboard */; };
 		5819B93F1CBB6DC3004EE8A8 /* weather_girlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5819B93E1CBB6DC3004EE8A8 /* weather_girlTests.m */; };
 		5819B94A1CBB6DC3004EE8A8 /* weather_girlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5819B9491CBB6DC3004EE8A8 /* weather_girlUITests.m */; };
+		58E2ABAF1CBF263400042F3E /* images in Resources */ = {isa = PBXBuildFile; fileRef = 58E2ABAE1CBF263400042F3E /* images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		5819B9451CBB6DC3004EE8A8 /* weather-girlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "weather-girlUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5819B9491CBB6DC3004EE8A8 /* weather_girlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weather_girlUITests.m; sourceTree = "<group>"; };
 		5819B94B1CBB6DC3004EE8A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58E2ABAE1CBF263400042F3E /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		5819B9231CBB6DC3004EE8A8 /* weather-girl */ = {
 			isa = PBXGroup;
 			children = (
+				58E2ABAE1CBF263400042F3E /* images */,
 				5819B9271CBB6DC3004EE8A8 /* AppDelegate.h */,
 				5819B9281CBB6DC3004EE8A8 /* AppDelegate.m */,
 				5819B92A1CBB6DC3004EE8A8 /* ViewController.h */,
@@ -244,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58E2ABAF1CBF263400042F3E /* images in Resources */,
 				5819B9341CBB6DC3004EE8A8 /* LaunchScreen.storyboard in Resources */,
 				5819B9311CBB6DC3004EE8A8 /* Assets.xcassets in Resources */,
 				5819B92F1CBB6DC3004EE8A8 /* Main.storyboard in Resources */,
@@ -505,6 +509,7 @@
 				5819B9501CBB6DC3004EE8A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5819B9511CBB6DC3004EE8A8 /* Build configuration list for PBXNativeTarget "weather-girlTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				5819B9531CBB6DC3004EE8A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5819B9541CBB6DC3004EE8A8 /* Build configuration list for PBXNativeTarget "weather-girlUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				5819B9561CBB6DC3004EE8A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
